@@ -1,0 +1,182 @@
+.container-list{
+    width: 560px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input-list{
+    width: 35rem;
+    height: 5.4rem;
+    border-radius: 8px;
+    background-color: #F8F9FA;
+}
+
+.input-list:hover{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 42px -12px rgba(0, 0, 0, 0.25);
+}
+
+.centralize-list-text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-list{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #212529;
+    font-family: 'Nunito';
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.type-list{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #343A40;
+    font-family: 'Nunito';
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.centralize-list-value{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.centralize-trash{
+    padding-right: 1.125rem;
+}
+
+.value-list{
+    padding-right: 2rem;
+}
+
+.trash{
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.trash:hover{
+    filter: invert(100%);
+}
+
+.output-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-centralize{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.8rem;
+}
+
+.filter-centralize-button{
+    gap: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.filter-resume{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Nunito';
+}
+
+.filter-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.3rem;
+    height: 2.5rem;
+    padding: 0.9rem;
+    color: #ffffff;
+    background-color: #FD377E;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.filter-all:hover{
+    background-color: #E34981;;
+}
+
+.filter-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.4rem;
+    height: 2.5rem;
+    padding: 0.9rem;
+    color: #343A40;
+    background-color: #E9ECEF;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.filter-input:hover{
+    background-color:#343A40;;
+    color: #ffffff;
+}
+
+.filter-expenses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.4rem;
+    height: 2.5rem;
+    padding: 0.9rem;
+    color: #343A40;
+    background-color: #E9ECEF;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.filter-expenses:hover{
+    background-color:#343A40;;
+    color: #ffffff;
+}
+
+.no-input{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 979px){
+    .pai-lista{
+        flex-wrap: wrap;
+    }
+    .filter-centralize{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        max-width: 22.6rem;
+        padding-left: 103px;
+
+    }
+    .container-list{
+        padding-right: 65px;
+    }
+    .input-list{
+        width: 22.6rem;
+
+    }
+}
