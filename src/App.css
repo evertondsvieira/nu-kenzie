@@ -7,10 +7,6 @@
     flex-wrap: wrap;
   }
   
-/*   *{
-    outline: 1px solid red;
-  } */
-  
   @media only screen and (max-width: 979px){
     .pai{
       padding-left: 25px;
