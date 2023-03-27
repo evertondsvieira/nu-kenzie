@@ -1,0 +1,161 @@
+.pai-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 3.6rem;
+}
+
+.container-form{
+    width: 22.6rem;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E9ECEF;
+    border-radius: 8px;
+}
+
+.form-description{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #212529;
+    padding-bottom: 0.75rem;
+}
+
+.form-input{
+    width: 19.6rem;
+    height: 3.25rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #868E96;
+    background-color: #F8F9FA;
+    border-style: none;
+    border-radius: 8px;
+}
+
+#placeholder-text {
+    padding-left: 10px;
+}
+
+#placeholder-number {
+    padding-left: 10px;
+}
+
+.form-example{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #868E96;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.form-centralize-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.form-value-text, .form-value-type{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #212529;
+}
+
+.form-centralize-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.188rem;
+}
+
+.form-input-value{
+    width: 8rem;
+    height: 3rem;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #868E96;
+    background-color: #F8F9FA;
+}
+
+.form-input-type{
+    width: 9.3rem;
+    height: 3rem;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #343A40;
+    background-color: #F8F9FA;
+}
+
+.centralize-input-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-button{
+    width: 19.6rem;
+    height: 3rem;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #FD377E;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.input-button:hover{
+    background-color: #E34981;;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/*TotalMoney*/
+.total{
+    width: 22.6rem;
+    height: 6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 1px solid #E9ECEF;
+    background-color: #ffffff;
+}
+
+.total-left{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.total-title{
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 1.25rem;
+    padding-left: 1.5rem;
+}
+
+.total-description{
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.total-right{
+    color: #FD377E;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 1.25rem;
+    padding-right: 1.5rem;
+}
