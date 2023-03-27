@@ -46,6 +46,7 @@
     font-size: 12px;
     color: #868E96;
     padding-top: 0.5rem;
+    padding-left: 5px;
     padding-bottom: 1rem;
 }
 
@@ -104,6 +105,7 @@
     border-radius: 8px;
     border-style: none;
     cursor: pointer;
+    font-family: 'Inter';
 }
 
 .input-button:hover{
@@ -136,7 +138,7 @@ input::-webkit-inner-spin-button {
 }
 
 .total-title{
-    font-family: 'Nunito';
+    font-family: 'Inter';
     font-size: 16px;
     font-weight: 700;
     padding-top: 1.25rem;
@@ -144,7 +146,7 @@ input::-webkit-inner-spin-button {
 }
 
 .total-description{
-    font-family: 'Nunito';
+    font-family: 'Inter';
     font-size: 14px;
     font-weight: 400;
     padding-top: 0.5rem;
@@ -153,7 +155,7 @@ input::-webkit-inner-spin-button {
 
 .total-right{
     color: #FD377E;
-    font-family: 'Nunito';
+    font-family: 'Inter';
     font-size: 16px;
     font-weight: 700;
     padding-top: 1.25rem;
